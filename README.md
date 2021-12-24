@@ -4,7 +4,7 @@ Code for DP-GSGLD
 
 ### About Questions
 
-Any suggestion/question is welcome.
+Any suggestions/questions is welcome.
 
 ### Requirements
 
@@ -16,12 +16,12 @@ Any suggestion/question is welcome.
 
 - numpy 1.19.2
 
-### Experiment for DLG
+### Experiments for DLG
 
     cd DP-GSGLD-DLG
     python CIFAR.py --learning_rate 0.01 --device cuda0 --iterations 300 --img_index 7 --scale 1 --epochs 2 --grad_clip 1 --optimizer FDPGSGLD
 
-### Experiment for IG
+### Experiments for IG
 
     cd DP-GSGLD-IG
     python reconstruct_image.py --model ResNet20-4 --dataset LFW --trained_model --cost_fn sim --indices def --restarts 1 --save_image --target_id -1 --max_iterations 24000 --scale 5 --optimizer DPSGD
