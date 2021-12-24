@@ -8,7 +8,9 @@ Any suggestions/questions is welcome.
 
 ### Requirements
 
-- torch  1.9.0
+- pytorch  1.10.0
+
+- torchvision 0.11.1
 
 - matplotlib 3.4.1
 
