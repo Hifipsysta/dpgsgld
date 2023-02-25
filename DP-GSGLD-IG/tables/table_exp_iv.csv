@@ -1,3 +1,0 @@
-model	dataset	trained	accumulation	restarts	OPTIM	cost_fn	indices	weights	scoring	init	tv	rec_loss	psnr	test_mse	feat_mse	target_id	seed	timing	dtype	epochs	val_acc	rec_img	gt_img
-ResNet20-4	CIFAR10	True	0	32	ours	sim	def	equal	loss	randn	0.0001	0.0043051838874816895	22.57259750366211	0.08807337284088135	0.0004406738153193146	-1	204515756	3:54:43.090274	torch.float32	120		a_trainedResNet20-4_sim--1.png	a_ground_truth--1.png
-ResNet20-4	CIFAR10	True	0	2	ours	sim	def	equal	loss	randn	0.0001	0.0039038658142089844	22.615978240966797	0.08719801902770996	0.0018483756575733423	-1	4060101212	0:35:45.565705	torch.float32	120		a_trainedResNet20-4_sim--1.png	a_ground_truth--1.png
